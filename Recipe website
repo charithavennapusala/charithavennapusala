@@ -1,0 +1,416 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><All-American trifle </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"rel="stylesheet">
+      
+    <link rel="stylesheet" href="style.css>"
+    </head>
+      <style>
+        h1,body{
+  margin:0px;
+  padding:0px;
+}
+.container{
+       position: absolute;
+       top:      5%;
+       left:     5%;
+     transform: translate(-2%,-1%);
+    }
+    .checked{
+      color: orange;
+}
+button{
+  position: relative;
+  width:500;
+  font-weight: bold;
+  padding: 15px 0;
+  margin:30px 10px;
+  color:gray;
+  border-color:orange;
+}
+.div{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  position:right;
+}
+#abc{
+  float:left;
+  margin-left:20px;
+  
+  
+}
+#pi{
+  
+  float:left;
+  width:100px;
+  height:50px;
+}
+.cam{
+  padding-left:30px;
+
+}
+
+#t{
+  padding-left:20px;
+  padding-bottom:10px;
+}
+.save-button {
+  color: Black;
+   background-color:White;
+   border-color:#FF8C00;
+  padding: 4px 7px;
+  top:150px;
+  cursor: pointer;
+}
+.far fa-heart{
+  border-color:#FF8C00;
+}
+.pin-button {
+  color: Black;
+   background-color:White;
+   border-color:#FF8C00;
+  padding: 0px 12px;
+  cursor: pointer;
+  margin-top: 5px;
+  
+}
+
+#p-alphabet{
+  font-family:Luminari;
+  color:Red;
+  font-weight: bold;
+  font-size:30px
+}
+
+.share-button {
+  color: Black;
+   background-color:White;
+   border-color:#FF8C00;
+  padding: 0px 3px;
+  cursor: pointer;
+  margin-top: -10px;
+}
+
+.adjust-button {
+  color: Black;
+   background-color:White;
+   border-color:#FF8C00;
+  padding: 7px 13px;
+  cursor: pointer;
+  margin-top: -20px;
+}
+.adjust-button0 {
+  color: Black;
+   background-color:grey;
+   border-color:black;
+  padding: 7px 13px;
+  cursor: pointer;
+  margin-top: -20px;
+}
+.adjust-button2 {
+  color: Black;
+   background-color:grey;
+   border-color:black;
+  padding: 7px 13px;
+  cursor: pointer;
+  margin-top: -20px;
+}
+.adjust-button10{
+  color:black;
+  backkground-color:white;
+  border-color:black;
+  padding:7px 13px;
+  cursor: pointer;
+  margin-top:-20px;
+}
+
+
+.print-button {
+  color: Black;
+   background-color:White;
+   border-color:#FF8C00;
+  padding: 10px 7px;
+  cursor: pointer;
+  margin-top: -5px;
+}
+.but1{
+  padding:8px;
+}
+#allow{
+  height:180px;
+  width:450px;
+  position:absolute;
+  left:400px;
+   bottom:150px; 
+  background-color:whitesmoke;
+  
+
+}
+#allowimg
+{
+  height:100px;
+  width:100px;
+  float:left;
+  border-radius:100%;
+  padding:20px;
+}
+#allowbut1
+{
+  position:relative;
+  left:125px;
+  padding:10px;
+  border-color:black;
+ 
+  
+  
+}
+#allowbut2
+{
+  position:relative;
+  left:100px;
+   padding:10px;
+  background-color:grey;
+  color:white;
+  border-color:black;
+}
+.sub-cont {
+    background-color: #ECECEC;
+    margin: 0px;
+    padding: 0px;
+}
+
+.allrecepieedit {
+    color: orange;
+    font-size: 20px;
+}
+
+
+.allrec {
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.mereedit {
+    font-size: 20px;
+}
+
+.madeitbox1 {
+    border: 2px solid orange;
+    justify-content: center;
+    padding: 3px;
+    width: 9vh;
+    height: 10vh;
+    margin: 3px;
+    justify-content: center;
+}
+.last{
+  font-size:10px;
+  padding-top:0;
+  padding-bottom:0;
+  padding-left:10px;
+  padding-right:100px;
+  margin-top:0;
+  margin-bottom:1px;
+}
+  h1{
+    font-family:arial black;
+    font-size:50px;
+  }
+      </style>
+  <body>
+     <div class="container">
+    <h1>All-American trifle </h1>
+   
+      <span class="fa fa-star fa-1x checked"></span>
+      <span class="fa fa-star fa-1x checked"></span>
+      <span class="fa fa-star fa-1x checked"></span>
+      <span class="fa fa-star fa-1x checked"></span>
+      <span class="fa fa-star fa-1x checked"></span>
+      </div<p> 4.8(98)  | 76 Reviews | 12Photos
+     
+      <p>This trifle is perfect for Fourth of July or a barbecue. It's a creamy, fruity, heavenly dessert! I've been told it's like a super-charged strawberry shortcake.</p>
+      <img style="width:40px;height:40px;" src="https://t3.ftcdn.net/jpg/03/46/83/96/240_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg"><span> <h2 style="display:inline;position:relative;bottom:10px; left:5px ">by cherry</h2>
+         <div class="div">
+        
+<aside class= aside>
+<div class="save">
+  <!--   save   -->
+        <svg class="lsave" viewBox="0 0 512 512" width="24" title="24">
+  <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+</svg>
+      <p class="psave">Save</p>
+</div>
+<div class="pin">
+  <!--   pin   -->
+        <svg class="lpin"xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ff0000}</style><path d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z"/></svg>
+      <p class="ppin">Pin</p>
+
+</div>
+<div class="print">
+  <!--    print  -->
+        <svg  class="lprint"xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"><style>svg{fill:#000000}</style><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zM432 248a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg>
+      <p  class="pprint">Print</p>
+</div>      
+      
+      <div class="share">
+        <!--  share    -->
+        <svg class="lshare"viewBox="0 0 512 512" width="26" title="share">
+  <path d="M503.691 189.836L327.687 37.851C312.281 24.546 288 35.347 288 56.015v80.053C127.371 137.907 0 170.1 0 322.326c0 61.441 39.581 122.309 83.333 154.132 13.653 9.931 33.111-2.533 28.077-18.631C66.066 312.814 132.917 274.316 288 272.085V360c0 20.7 24.3 31.453 39.687 18.164l176.004-152c11.071-9.562 11.086-26.753 0-36.328z" />
+</svg>
+      <p class="pshare">Share</p>
+      </div>
+
+      
+    </aside>
+        <div style="width:900px;height:500px;">
+         
+           
+         <img id="abc"  src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8300882.jpg&q=60&c=sc&orient=true&poi=auto&h=512" width=500px height=500px>
+        
+          
+          <div id="allow">
+           <img id="allowimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREZ_km7iYeSJZb_C3d1obNCjy-kBmK7V42a6QHy-wug-XCYD_E3GiafoHAxk5GSYKZNRo&usqp=CAU"> 
+            <p> Get the best recipes & how to content from Allrecipes!</p>
+            <p>you will see a grey box to confirm.</p>
+            <button id="allowbut1">Dismiss</button>
+            <button id="allowbut2">Allow</button>
+          </div>
+          
+       <div id="abc" style="width:300px;height:300px;border:2px solid black;">   
+          <p id="t">Prep:    30mins</p>
+        <p id="t">Cook:    10mins</p>
+        <p id="t">Total:   40mins</p>
+        <p id="t">Servings:15</p>
+        <p id="t">Yield:1 10x15-inches</p>
+        </div>    
+        
+       <div>                         <div style="width:300px;height:500px;"></div>        
+     <div >
+                                                           <br>                                                      <div style="width:550px;height:50px;margin-left:20px;">
+                                                                   <div id="pi"><svg class="cam" xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M149.1 64.8L138.7 96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H373.3L362.9 64.8C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 192a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"/></svg></div> 
+               <div id="pi"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2Fbecf644cf639e9c7f7661267ad19c3e0%2F168856574664120230704_084604.jpg&q=60&c=sc&orient=true&poi=auto&h=512" width=90px height=50px></div>                           <div id="pi"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9291391.jpg&q=60&c=sc&orient=true&poi=auto&h=512"width=90px height=50px></div>
+                 <div id="pi"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets-ucg.meredithcorp.io%2F12a04df22aa6c79d9ed6a0af134f6141%2F6815389.jpg&q=60&c=sc&orient=true&poi=auto&h=512" width=90px height=50px></div>                           <div id="pi"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets-ucg.meredithcorp.io%2F88d533ea5d55751f208a708945fe5d41%2F6812758.jpg&q=60&c=sc&orient=true&poi=auto&h=512" width=90px height=50px></div>                                                 </div>                                                            
+                                                                   <div style="width:300px;height:50px;"></div>        </div>
+     <div >                                               
+        <hr></hr>
+                                                            
+      <h2> INGREDIENTS  <button style=" left:368px;"class="adjust-button2">-</button>
+                                                             <button style=" left:340px;"class="adjust-button10">10</button>
+                                                             <button style=" left:310px;"class="adjust-button0">+</button>
+                                                             <button style=" left:290px;"class="adjust-button">Adjust</button>
+              <p style="position:relative;font-size:10px;color:grey;top:-30px;left:570px;">Original receipe yeilds 15 servings</p>
+                                                             
+                                                             
+       </h2>
+                                                            
+      <ul>
+        <input type="checkbox"
+        <li> 3 pounds fresh strawberries, hulled and sliced</br>
+      <input type="checkbox"
+       <li> 1/4 cup white sugar</br>
+      <input type="checkbox"
+      <li> 1 quart heavy cream</br>
+    <input type="checkbox"
+      <li> 1(6 ounce)container lemon yogurt</br>
+      <input type="checkbox"
+      
+   <li> 1 (3.3 ounce)package instant white chcolate pudding mix</br>
+    <input type="checkbox"
+      <li> 2 tablespoons coconut-flavored rum, or to taste, divided(optional)</br>
+  <input type="checkbox"
+      <li> 2(16 ounce)prepared pound cakes, cubed</br>
+<input type="checkbox"
+      <li> 2 pints fresh blueberries, or as needed</br>
+ <button type="button" style="padding:10px">ADD ALL INGREDIENTS TO SHOPPING LIST</button>
+                      
+                      </div>
+      <hr></hr>
+      <h1> Directions</h1>
+      <ol>
+        <li>step 1</li>
+        <p>Sprinkle strawberries with sugar in a bowl; stir to distribute sugar, and set aside.</p>
+        <li>step 2
+        <p>Chill a large metal mixing bowl and beaters from an electric mixer.</p>
+
+
+          <li>step 3</li>
+          <p>Pour cream into the chilled mixing bowl, and add lemon yogurt, pudding mix, and about 1 tablespoon of coconut rum; beat until fluffy with an electric mixer set on medium speed.</p>
+        <li>step 4</li>
+            <P>Spread a layer of pound cake cubes into the bottom of a glass 10x15-inch baking dish, and sprinkle cubes with remaining tablespoon coconut rum. Cover pound cake with a layer of strawberries; sprinkle blueberries over strawberries. Spread a thick layer of whipped cream over the berries.</p>
+              <li>Step 5</li>
+              <p>Repeat the layers several times, ending with a layer of strawberries sprinkled with blueberries and reserving about 1 cup of whipped cream; top the trifle with dollops of whipped cream to serve. Refrigerate leftovers.
+
+</p>
+        <button class="but1"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M245.8 220.9c-14.5-17.6-21.8-39.2-21.8-60.8C224 80 320 0 416 0c53 0 96 43 96 96c0 96-80 192-160.2 192c-21.6 0-43.2-7.3-60.8-21.8L54.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L245.8 220.9z"/></svg> I made it </button> <button class="but1"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zM432 248a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg> print</button>
+        <hr></hr>
+        <h2>Nutrition facts</h2>
+        <b> Per serving : </b> 
+        <i>537 calories;carbohydrates 51g;fat 36g; protein 6g;calcium 2g.</i>
+                                                             <a href="#" class="an">Full Nutrition</a>
+                                                             
+  <br>
+   <br>
+                                                             <br>
+   <br>
+                                                             <br>
+       <div class="sub-cont">
+
+            <div class="d-flex flex-row justify-content-center">
+
+                <div class="d-flex flex-column justify-content-center m-3">
+                    <p class="perserve" style="position:relative;left:100px;top:70px;font-family:arial black;">Magazines & More</p>
+                </div>
+
+                <div class="d-flex flex-column justify-content-center allrec m-3">
+<!--                     <h1 class="allrecepieedit">allrecepies</h1> -->
+        <img src="https://mma.prnewswire.com/media/1080170/Allrecipes_Logo.jpg?p=publish" style="width:100px;height:50px;position:relative;bottom:30px">
+                    <p class="perserve"style="font-family:arial black";>Learn More</p>
+                    <p>About Us</p>
+                    <p>Contact Us</p>
+                    <p>Editorial Guidelines</p>
+                    <p>Subscribe</p>
+                    <p>Apps</p>
+                    <p>Advertise</p>
+                </div>
+
+                <div class="d-flex flex-column justify-content-center m-3">
+                   
+                    <div style="position:relative;left:650px;bottom:270px">
+                                                              <p style="font-family:arial black";>Connect</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+ <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg>                
+<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                                                             
+<br>
+    <br>
+<a href="# class="last">subscribe to our news letter</a>
+       </div>
+         </div>
+
+</div>
+           </div>
+
+        <div class="d-flex flex-column justify-content-center">
+            <h1 class="d-flex flex-row justify-content-center mereedit">Meredith</h1>
+            <p class="text-center">All recepies is part of the Meredith Food Group. Copyright 2022 <span>Meredith Corporation.</span> All Rights reserved.</p>
+        </div>
+
+    </div>
+           
+
+</body>
+        <footer>
+          <p>copyright 2023 fake website</p>
+          <a href="#">Privacy Policy</a>
+          <a href="#">terms of service</a>
+          <a href="#">ad choices</a>
+          <a href="#">web accessibility</a>
+          </footer>
+
+        </body>
+                                           </html>
+  
