@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color:rgb(2, 90, 255);
+                display:flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+            }
+
+            p{
+                display:flex;
+                width: 400px;
+                height:100px;
+                padding: 20px 30px 20px 30px;
+                background-color: rgb(0, 255, 251);
+                justify-content: space-around;
+                border-radius:100px;
+                align-items: center;
+                gap:20px;
+            }
+            button{
+                display:flex;
+                flex-direction: column;
+                height: fit-content;
+                background-color: rgb(0, 61, 146);
+                color:white;
+                font-weight: 900;
+                padding: 10px 20px 10px 20px;
+                border-radius:10px;
+                border-style: inset;
+
+            }
+            img{
+                height: 100px;
+                width: 100px;
+                padding: 15px;
+                background-color: rgb(248, 248, 248);
+                border-radius: 30px;
+            }
+            button:hover{
+                letter-spacing:1px;
+            }
+        </style>
+        <script>
+            let move="";
+            let mymove="";
+            function comp(){
+                let rand = Math.random();
+                if(rand<1/3 && rand>=0){
+                    move="rock";
+                }
+                else if (rand<2/3 && rand>=1/3){
+                    move="paper";
+                }
+                else{
+                    move="scissors";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Let's play a game of RockPaperScissors </h1>
+        <p>
+            <button onclick="comp();
+                    mymove='rock';
+                    console.log(mymove);
+                    console.log('comp move' , move)
+                    if(move==='rock'){
+                        alert(`you picked ${mymove}. computer picked ${move}. its a tie!`);
+                    }
+                    else if(move==='paper'){
+                        alert(`you picked ${mymove}. computer picked ${move}. you lose!`);
+                    }
+                    else{
+                        alert(`you picked ${mymove}. computer picked ${move}. you win!`);
+                    }
+            
+            
+            "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcmTi0_Qkk3aks73xCCQRBa53TiiI7QOrAvQ&usqp=CAU" alt="">Rock</button>
+
+
+            <button onclick="comp();
+            mymove='paper';
+            if(move==='rock'){
+                alert(`you picked ${mymove}. computer picked ${move}. you win!`);
+            }
+            else if(move==='paper'){
+                alert(`you picked ${mymove}. computer picked ${move}. its a tie!`);
+            }
+            else{
+                alert(`you picked ${mymove}. computer picked ${move}. you lose!`);
+            }"
+            
+            ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Uw6Shl43JzS5jLI2WDvX7qdchRbbXP6bUrHCJM3PYQL9cmmXB7gbZLgpaOdhlqT8T2M&usqp=CAU" alt="">Paper</button>
+
+            <button onclick="comp();
+            mymove='scissors';
+            if(move==='rock'){
+                alert(`you picked ${mymove}. computer picked ${move}. you lose!`);
+            }
+            else if(move==='paper'){
+                alert(`you picked ${mymove}. computer picked ${move}. you win!`);
+            }
+            else{
+                alert(`you picked ${mymove}. computer picked ${move}. its a tie!`);
+            }"
+            
+            ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKyJob5hcksKHEhaDgqD7g1122-WhLmEQAKVJiozWqvSjHlNr8Qy0rD2HG8ocMWBWS9QU&usqp=CAU" alt="">Scissors</button>
+        </p>
+    </body>
+</html>
+
